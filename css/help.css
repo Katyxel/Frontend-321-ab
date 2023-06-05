@@ -1,3 +1,10 @@
+@import "../css/fonts.css";
+@import "../css/normalize.css";
+@import "../css/forms.css";
+@import "../lib/swiper.css";
+@import "../css/modal.css";
+@import "../css/help.css";
+
 .help {
   padding-top: 24px;
 }
@@ -110,6 +117,112 @@ input[type="search"]::-webkit-search-cancel-button {
   text-overflow: ellipsis;
 }
 
+.help-nav {
+  display: inline-flex;
+  gap: 10px;
+  width: 100%;
+  justify-content:left;
+  margin-top: 30px;
+  border-bottom: 1px solid #b8adad;
+}
+
+.h1 {
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.help-nav__link {
+  font-family: 'Messina Sans', sans-serif;
+  font-weight: 600;
+  color: #7a7272;
+  padding: 10px 0;
+  border: 0;
+  margin: 0 8px;
+  background-color: transparent;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.help-nav__link::after,
+.link-active::after {
+  content: '';
+  height: 1.5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--nav-link-color);
+  inset-inline: 0;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+
+.help-nav__link:hover {
+  opacity: 0.65;
+}
+
+/* анимация линии при наведении на неактивную ссылку */
+.help-nav__link:hover::after {
+  transform: scaleX(1);
+  opacity: 0.65;
+}
+
+
+
+
+
+.container-helppage {
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+}
+.help-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  margin: 30px auto;
+  border: 1px solid #b8adad;
+  border-radius: 10px;
+}
+
+
+/*cards*/
+
+.cards-helppage {
+  padding: 30px 0;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.card-help {
+  display: inline-block;
+  vertical-align: middle;
+  width: 255px;
+  height: 255px;
+}
+
+.card-help img {
+  max-width: 100%;
+  height: 255px;
+  vertical-align: middle;
+  /* убираем зазор снизу */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-image-help {
+  min-height: 250px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.card-text-help {
+  margin-top: 20px;
+}
 /* .search-menu .search-menu__text {
   padding: 12px 16px;
   font-size: 14px;
