@@ -70,5 +70,42 @@
         "price": "25.00",
         "description": "Accessible environment",
         "imgSrc": "images/help-image-8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Help",
+        "category": "Help",
+        "rating": "4.9",
+        "price": "25.00",
+        "description": "Help with bills",
+        "imgSrc": "images/help-image-9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Pay",
+        "category": "Pay",
+        "rating": "4.9",
+        "price": "25.00",
+        "description": "Receiving payouts",
+        "imgSrc": "images/help-image-10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Host",
+        "category": "Host",
+        "rating": "4.9",
+        "price": "25.00",
+        "description": "How to host an experience with a second host",
+        "imgSrc": "images/help-image-11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Corp",
+        "category": "Corp",
+        "rating": "4.9",
+        "price": "25.00",
+        "description": "Corporate Bookings",
+        "imgSrc": "images/help-image-12.jpg"
     }
+
 ]
