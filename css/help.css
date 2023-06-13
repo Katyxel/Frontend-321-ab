@@ -182,7 +182,8 @@ input[type="search"]::-webkit-search-cancel-button {
   justify-content: space-between;
   padding: 20px;
   width: 100%;
-  margin: 30px auto;
+  max-width: 1090px;
+  margin: 20px 111px;
   border: 1px solid #b8adad;
   border-radius: 10px;
 }
