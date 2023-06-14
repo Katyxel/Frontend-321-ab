@@ -3,7 +3,7 @@
 @import "../css/forms.css";
 @import "../lib/swiper.css";
 @import "../css/modal.css";
-@import "../css/help.css";
+@import "../css/style.css";
 
 .help {
   padding-top: 24px;
@@ -241,3 +241,4 @@ input[type="search"]::-webkit-search-cancel-button {
 .search-menu a:hover {
   background-color: var(--bg-hover);
 } */
+

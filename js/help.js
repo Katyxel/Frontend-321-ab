@@ -1,5 +1,4 @@
 
-
 /* карточки */
 const fetchData = () => {
   return fetch('../data.json')
@@ -22,7 +21,7 @@ window.addEventListener('load', () => {
   allSkeletons.forEach(element => {
     element.classList.remove('skeleton');
   })
-}) 
+})
 
 const renderData = async () => {
   try {
@@ -37,11 +36,11 @@ const renderData = async () => {
         div.innerHTML = `
           <a class="card-link" href="help-details.html?id=${product?.id}" target="_blank" rel="noopener noreferrer nofollow"></a>
           <div class="card">
-            <div class="card-image skeleton">
+            <div class="card-image">
               <img src="${product?.imgSrc}" alt="image">
             </div>
-            <h3 class="card-text__name skeleton">${product?.name}</h3>
-            <p class="card-text__description skeleton">${product?.description}</p>
+            <h3 class="card-text__name">${product?.name}</h3>
+            <p class="card-text__description">${product?.description}</p>
           </div>
         `;
 
