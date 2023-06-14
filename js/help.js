@@ -1,5 +1,4 @@
 
-
 /* карточки */
 const fetchData = () => {
   return fetch('../data.json')
@@ -22,7 +21,6 @@ window.addEventListener('load', () => {
   allSkeletons.forEach(element => {
     element.classList.remove('skeleton');
   })
-}) 
 
 const renderData = async () => {
   try {
@@ -114,8 +112,6 @@ document.addEventListener('click', (event) => {
     searchMenu.classList.remove('search-show');
   }
 })
-
-
 
 /* tabs */
 document.addEventListener('DOMContentLoaded', () => {
